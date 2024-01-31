@@ -2,5 +2,26 @@ import React from "react";
 import "./styles.css";
 
 export default function App() {
-  return <div>Replace me with your Component!</div>;
+  return HelloWorldArticle();
+}
+
+function HelloWorldArticle() {
+  return (
+    <article>
+      <h1>Hello World Article</h1>
+      <p>
+        Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy
+        eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam
+        voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet
+        clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit
+        amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam
+        nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,
+        sed diam voluptua.
+      </p>
+      <asside>
+        Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor
+        sit amet.
+      </asside>
+    </article>
+  );
 }
